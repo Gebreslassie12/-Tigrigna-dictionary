@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ti">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> መዝገበ ቃላት ትግርኛ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dictionary-container">
+        <div class="lang-switcher">
+            <select id="langSelect" onchange="changeLanguage()">
+                <option value="ti">ትግርኛ</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+
+        <h1 id="mainTitle"> መዝገበ ቃላት ትግርኛ</h1>
+        <p id="subTitle" class="subtitle">ዝደለይዎ ቃል ብትግርኛ ፅሒፎም ይድለዩ</p>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="ቃል ኣብዚ የእትዉ..." oninput="searchWord()">
+            <button id="searchBtn" onclick="searchWord()">ድለ</button>
+        </div>
+
+        <div id="resultContainer" class="result-container">
+            </div>
+
+        <div class="support-section">
+            <hr>
+            
+            <p><strong id="supportLabel"></strong> 
+                <a href="tel:*806*0946911419*10%23" class="code-link" id="supportBtn">Support/ ኣ ተ ባ ብ ዑ </a>
+            </p>
+            
+            <p><strong id="teleLabel">telebirr:</strong> 
+                <span class="code-text" id="teleNum">0946911419</span>
+                <button id="copyBtn" onclick="copyTelebirr()" class="copy-btn">ኮፒ ግበር</button>
+                <span id="copyFeedback" style="color: #27ae60; display: block; margin-top: 5px; font-size: 11px;"></span>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
