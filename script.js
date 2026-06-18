@@ -1,4 +1,4 @@
-// መኽዘን ቃላት (ኣብዚ ቃላት ክትውስኽ ትኽእል ኢኻ)
+// መኽዘን ቃላት
 const dictionaryData = {
   "ሀ": [
     {
@@ -9,14 +9,14 @@ const dictionaryData = {
     {
       "ቃል": "ሃነፀ", 
       "ትርጉም_en": "Build, construct",
-      "ትርጉም_ti": " ህንጻ ፣ ሰረተ"
+      "ትርጉም_ti": "ገዛ ወይ ህንጻ ሰረተ።"
     }
   ],
   "ለ": [
     {
       "ቃል": "ለባም", 
       "ትርጉም_en": "Wise, intelligent",
-      "ትርጉም_ti": " መስተውዓሊ"
+      "ትርጉም_ti": "ኣስተውዓሊ፣ ምስትውዓል ዘለዎ ሰብ።"
     }
   ]
 };
@@ -131,6 +131,17 @@ function copyTelebirr() {
     const feedback = document.getElementById("copyFeedback");
     feedback.innerText = uiTranslations[lang].copied;
     setTimeout(() => { feedback.innerText = ""; }, 3000);
+}
+
+// ----------------------------------------------------
+// 🚀 ሓዱሽ ክፋል፡ ንኣፕሊኬሽን (Offline & Real App) ዝሰርሕ መስመር
+// ----------------------------------------------------
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js")
+      .then(() => console.log("Service Worker ብዓወት ተመዝጊቡ ኣሎ!"))
+      .catch((err) => console.log("ਸਿਸਟਮ ጌጋ ኣጋጢሙ:", err));
+  });
 }
 
 window.onload = changeLanguage;
