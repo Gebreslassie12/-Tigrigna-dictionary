@@ -1,7 +1,7 @@
 const CACHE_NAME = "tigrinya-dict-v1";
+// ሕዚ "style.css" ካብዚ ዝርዝር ተወጊዱ ኣሎ
 const ASSETS = [
   "index.html",
-  "style.css",
   "script.js",
   "manifest.json"
 ];
@@ -23,4 +23,3 @@ self.addEventListener("fetch", (e) => {
     })
   );
 });
-
