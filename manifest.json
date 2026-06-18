@@ -1,0 +1,16 @@
+{
+  "name": " መዝገበ ቃላት ትግርኛ",
+  "short_name": "መዝገበ ቃላት",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135664.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
