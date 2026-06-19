@@ -107,7 +107,7 @@ const uiTranslations = {
         supportLabel: "Support/ሓግዝ:",
         teleLabel: "ብቴሌብር (telebirr):",
         copy: "ኮፒ ግበር",
-        noResult: "ይቕሬታ፣ ቁልቁል ዝበለ ቃል ኣይተረኽበን።",
+        noResult: "ይቕሬታ፣ኣይተረኽበን።",
         copied: "✓ ቁፅሪ ተቀዲሑ ኣሎ (Copied!)"
     },
     en: {
