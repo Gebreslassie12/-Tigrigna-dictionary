@@ -103,7 +103,7 @@ const uiTranslations = {
         subtitle: "ዝደለይዎ ቃል ብትግርኛ ፅሒፎም ይድለዩ",
         placeholder: "ቃል ኣብዚ የእትዉ...",
         search: "ድለ",
-        supportTitle: "🌟 ነዚ መዝገበ ቃላት ንምግፋሕን ንምምዕባልን ሓገዝኩም ኣይፈለየና!",
+        supportTitle: "🌟 ነዚ መዝገበ ቃላት ንምግፋሕን ንምምዕባልን ምትብባዕኹም ኣይፈለየና!",
         supportLabel: "Support/ሓግዝ:",
         teleLabel: "ብቴሌብር (telebirr):",
         copy: "ኮፒ ግበር",
@@ -175,7 +175,7 @@ function searchWord() {
                         <strong>English:</strong> ${item.ትርጉም_en}
                     </p>
                     <p class="word-definition" style="color: #555; margin: 5px 0;">
-                        <strong>ትግርኛ መግለፂ:</strong> ${item.ትርጉም_ti}
+                        <strong>ትግርኛ:</strong> ${item.ትርጉም_ti}
                     </p>
                 `;
                 resultContainer.appendChild(card);
