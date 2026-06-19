@@ -1,6 +1,5 @@
 // መኽዘን ቃላት
 const dictionaryData = {
-const dictionaryData = {
   "ቃላት": [
     {
       "ቃል": "ጽቡቕ",
