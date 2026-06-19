@@ -1,105 +1,106 @@
 // መኽዘን ቃላት
-const dictionaryData = {
-{
-  "ቃል": "ጽቡቕ",
-  "ትርጉም_en": "good",
-  "ትርጉም_ti": "ባህ ዘብል ወይ ሕሩይ"
-},
-{
-  "ቃል": "ዓቢ",
-  "ትርጉም_en": "great",
-  "ትርጉም_ti": "ኣገዳሲ ወይ ክቡር"
-},
-{
-  "ቃል": "ዘደንቕ",
-  "ትርጉም_en": "wonderful",
-  "ትርጉም_ti": "ዘገርምን ዘሐጉስን"
-},
-{
-  "ቃል": "ብሉጽ",
-  "ትርጉም_en": "excellent",
-  "ትርጉም_ti": "ኣዝዩ ጽቡቕ"
-},
-{
-  "ቃል": "ሕማቕ",
-  "ትርጉም_en": "bad",
-  "ትርጉም_ti": "ዘይጽቡቕ"
-},
-{
-  "ቃል": "ኣሰቃቒ",
-  "ትርጉም_en": "terrible",
-  "ትርጉም_ti": "ኣዝዩ ሕማቕ"
-},
-{
-  "ቃል": "ዘፍርሕ",
-  "ትርጉም_en": "awful",
-  "ትርጉም_ti": "ዘፍርሕ ወይ ዘሰቅቕ"
-},
-{
-  "ቃል": "ዘይባህግ",
-  "ትርጉም_en": "unpleasant",
-  "ትርጉም_ti": "ባህ ዘየብል"
-},
-{
-  "ቃል": "ዓቢ",
-  "ትርጉም_en": "big",
-  "ትርጉም_ti": "ብዓቐን ዓቢ"
-},
-{
-  "ቃል": "ሰፊሕ",
-  "ትርጉም_en": "large",
-  "ትርጉም_ti": "ብስፍሓት ዓቢ"
-},
-{
-  "ቃል": "ግዙፍ",
-  "ትርጉም_en": "huge",
-  "ትርጉም_ti": "ኣዝዩ ዓቢ"
-},
-{
-  "ቃል": "ኣዝዩ ግዙፍ",
-  "ትርጉም_en": "massive",
-  "ትርጉም_ti": "ብጣዕሚ ዓቢን ከቢድን"
-},
-{
-  "ቃል": "ንእሽቶ",
-  "ትርጉም_en": "small",
-  "ትርጉም_ti": "ብዓቐን ንእሽቶ"
-},
-{
-  "ቃል": "ኣዝዩ ንእሽቶ",
-  "ትርጉም_en": "tiny",
-  "ትርጉም_ti": "ብጣዕሚ ንእሽቶ"
-},
-{
-  "ቃል": "ጽቕጥ ዝበለ",
-  "ትርጉም_en": "compact",
-  "ትርጉም_ti": "ንእሽቶ ግን ዝተሰናደወ"
-},
-{
-  "ቃል": "ሕጉስ",
-  "ትርጉም_en": "happy",
-  "ትርጉም_ti": "ሓጎስ ዝስምዖ"
-},
-{
-  "ቃል": "ኣዝዩ ተሓጒሱ",
-  "ትርጉም_en": "delighted",
-  "ትርጉም_ti": "ብጣዕሚ ዝተሓጎሰ"
-},
-{
-  "ቃል": "ተሓጒሱ",
-  "ትርጉም_en": "pleased",
-  "ትርጉም_ti": "ዝተሓጎሰ"
-},
-{
-  "ቃል": "ብሓጎስ ዝተመልአ",
-  "ትርጉም_en": "thrilled",
-  "ትርጉም_ti": "ብጣዕሚ ዝተሓጎሰ"
-}،
+const dictionaryData = [
+  {
+    "ቃል": "ጽቡቕ",
+    "ትርጉም_en": "good",
+    "ትርጉም_ti": "ባህ ዘብል ወይ ሕሩይ"
+  },
+  {
+    "ቃል": "ዓቢ",
+    "ትርጉም_en": "great",
+    "ትርጉም_ti": "ኣገዳሲ ወይ ክቡር"
+  },
+  {
+    "ቃል": "ዘደንቕ",
+    "ትርጉም_en": "wonderful",
+    "ትርጉም_ti": "ዘገርምን ዘሐጉስን"
+  },
+  {
+    "ቃል": "ብሉጽ",
+    "ትርጉም_en": "excellent",
+    "ትርጉም_ti": "ኣዝዩ ጽቡቕ"
+  },
+  {
+    "ቃል": "ሕማቕ",
+    "ትርጉም_en": "bad",
+    "ትርጉም_ti": "ዘይጽቡቕ"
+  },
+  {
+    "ቃል": "ኣሰቃቒ",
+    "ትርጉም_en": "terrible",
+    "ትርጉም_ti": "ኣዝዩ ሕማቕ"
+  },
+  {
+    "ቃል": "ዘፍርሕ",
+    "ትርጉም_en": "awful",
+    "ትርጉም_ti": "ዘፍርሕ ወይ ዘሰቅቕ"
+  },
+  {
+    "ቃል": "ዘይባህግ",
+    "ትርጉም_en": "unpleasant",
+    "ትርጉም_ti": "ባህ ዘየብል"
+  },
+  {
+    "ቃል": "ዓቢ",
+    "ትርጉም_en": "big",
+    "ትርጉም_ti": "ብዓቐን ዓቢ"
+  },
+  {
+    "ቃል": "ሰፊሕ",
+    "ትርጉም_en": "large",
+    "ትርጉም_ti": "ብስፍሓት ዓቢ"
+  },
+  {
+    "ቃል": "ግዙፍ",
+    "ትርጉም_en": "huge",
+    "ትርጉም_ti": "ኣዝዩ ዓቢ"
+  },
+  {
+    "ቃል": "ኣዝዩ ግዙፍ",
+    "ትርጉም_en": "massive",
+    "ትርጉም_ti": "ብጣዕሚ ዓቢን ከቢድን"
+  },
+  {
+    "ቃል": "ንእሽቶ",
+    "ትርጉም_en": "small",
+    "ትርጉም_ti": "ብዓቐን ንእሽቶ"
+  },
+  {
+    "ቃል": "ኣዝዩ ንእሽቶ",
+    "ትርጉም_en": "tiny",
+    "ትርጉም_ti": "ብጣዕሚ ንእሽቶ"
+  },
+  {
+    "ቃል": "ጽቕጥ ዝበለ",
+    "ትርጉም_en": "compact",
+    "ትርጉም_ti": "ንእሽቶ ግን ዝተሰናደወ"
+  },
+  {
+    "ቃል": "ሕጉስ",
+    "ትርጉም_en": "happy",
+    "ትርጉም_ti": "ሓጎስ ዝስምዖ"
+  },
+  {
+    "ቃል": "ኣዝዩ ተሓጒሱ",
+    "ትርጉም_en": "delighted",
+    "ትርጉም_ti": "ብጣዕሚ ዝተሓጎሰ"
+  },
+  {
+    "ቃል": "ተሓጒሱ",
+    "ትርጉም_en": "pleased",
+    "ትርጉም_ti": "ዝተሓጎሰ"
+  },
+  {
+    "ቃል": "ብሓጎስ ዝተመልአ",
+    "ትርጉም_en": "thrilled",
+    "ትርጉም_ti": "ብጣዕሚ ዝተሓጎሰ"
+  }
+];
 
 // ናይ ቋንቋ ትርጉማት (UI Translations)
 const uiTranslations = {
     ti: {
-        title: " መዝገበ ቃላት ትግርኛ",
+        title: "መዝገበ ቃላት ትግርኛ",
         subtitle: "ዝደለይዎ ቃል ብትግርኛ ፅሒፎም ይድለዩ",
         placeholder: "ቃል ኣብዚ የእትዉ...",
         search: "ድለ",
@@ -107,7 +108,7 @@ const uiTranslations = {
         supportLabel: "Support/ሓግዝ:",
         teleLabel: "ብቴሌብር (telebirr):",
         copy: "ኮፒ ግበር",
-        noResult: "ይቕሬታ፣ኣይተረኽበን።",
+        noResult: "ይቕሬታ፣ ኣይተረኽበን።",
         copied: "✓ ቁፅሪ ተቀዲሑ ኣሎ (Copied!)"
     },
     en: {
@@ -154,36 +155,29 @@ function searchWord() {
     }
 
     resultContainer.innerHTML = ""; 
-    let found = false;
+    
+    // ንኹሎም ቃላት ብቐጥታ ካብቲ ዝርዝር ፈልዮም ዝረኽቡ
+    const matchedWords = dictionaryData.filter(item => 
+        item.ቃል.toLowerCase().includes(searchInput) || 
+        item.ትርጉም_en.toLowerCase().includes(searchInput)
+    );
 
-    for (let letter in dictionaryData) {
-        const wordsArray = dictionaryData[letter];
-        
-        const matchedWords = wordsArray.filter(item => 
-            item.ቃል.toLowerCase().includes(searchInput) || 
-            item.ትርጉም_en.toLowerCase().includes(searchInput)
-        );
-
-        if (matchedWords.length > 0) {
-            found = true;
-            matchedWords.forEach(item => {
-                const card = document.createElement('div');
-                card.className = 'word-card';
-                card.innerHTML = `
-                    <p class="word-title">${item.ቃል}</p>
-                    <p class="word-definition" style="color: #2980b9; font-size: 18px; font-weight: 600; margin: 5px 0;">
-                        <strong>English:</strong> ${item.ትርጉም_en}
-                    </p>
-                    <p class="word-definition" style="color: #555; margin: 5px 0;">
-                        <strong>ትግርኛ:</strong> ${item.ትርጉም_ti}
-                    </p>
-                `;
-                resultContainer.appendChild(card);
-            });
-        }
-    }
-
-    if (!found) {
+    if (matchedWords.length > 0) {
+        matchedWords.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'word-card';
+            card.innerHTML = `
+                <p class="word-title">${item.ቃል}</p>
+                <p class="word-definition" style="color: #2980b9; font-size: 18px; font-weight: 600; margin: 5px 0;">
+                    <strong>English:</strong> ${item.ትርጉም_en}
+                </p>
+                <p class="word-definition" style="color: #555; margin: 5px 0;">
+                    <strong>ትግርኛ:</strong> ${item.ትርጉም_ti}
+                </p>
+            `;
+            resultContainer.appendChild(card);
+        });
+    } else {
         resultContainer.innerHTML = `<p class="no-result">${uiTranslations[lang].noResult}</p>`;
     }
 }
@@ -215,7 +209,7 @@ if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("sw.js")
       .then(() => console.log("Service Worker ብዓወት ተመዝጊቡ ኣሎ!"))
-      .catch((err) => console.log("ਸਿਸਟਮ ጌጋ ኣጋጢሙ:", err));
+      .catch((err) => console.log("ስርዓት ጌጋ ኣጋጢሙ:", err));
   });
 }
 
