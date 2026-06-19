@@ -94,7 +94,7 @@ const dictionaryData = {
   "ቃል": "ብሓጎስ ዝተመልአ",
   "ትርጉም_en": "thrilled",
   "ትርጉም_ti": "ብጣዕሚ ዝተሓጎሰ"
-}
+}،
 
 // ናይ ቋንቋ ትርጉማት (UI Translations)
 const uiTranslations = {
