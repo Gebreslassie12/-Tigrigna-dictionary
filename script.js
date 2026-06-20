@@ -106,7 +106,7 @@ const uiTranslations = {
         search: "ድለ",
         supportTitle: "🌟 ነዚ መዝገበ ቃላት ንምግፋሕን ንምምዕባልን ምትብባዕኹም ኣይፈለየና!",
         supportLabel: "Support/ሓግዝ:",
-        teleLabel: "ብቴሌብር (telebirr):",
+        teleLabel: "telebirr:",
         copy: "ኮፒ ግበር",
         noResult: "ይቕሬታ፣ ኣይተረኽበን።",
         copied: "✓ ቁፅሪ ተቀዲሑ ኣሎ (Copied!)"
